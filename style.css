@@ -1,0 +1,45 @@
+/* CSS files add styling rules to your content */
+
+@import url("https://fonts.googleapis.com/css?family=Tangerine");
+@import url("https://fonts.googleapis.com/css?family=Lato");
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  text-align: center;
+  /* Photo credit: https://unsplash.com/photos/3n7DdlkMfEg */
+  background: url("https://cdn.glitch.com/04a21d7f-6589-46e9-9763-71adc501f1a4%2Fartem-maltsev-1399081-unsplash.jpg?1556761851268");
+  background-size: cover;
+  font-family: 'Lato';
+  letter-spacing: 1px;
+}
+
+div.container {
+  max-width: 80%;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+h1, h2, h3 {
+  text-shadow: 2px 2px black;
+}
+
+h1, h3 {
+  font-size: 3em;
+  font-family: 'Tangerine';
+}
+
+input {
+  font-size: 2em;
+  border: 1px solid white;
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Lato';
+  letter-spacing: 1px;
+}
